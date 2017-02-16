@@ -15,6 +15,7 @@
 		091BA9341E518E78001B35F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091BA9321E518E78001B35F1 /* LaunchScreen.storyboard */; };
 		091BA93F1E518E78001B35F1 /* ZLScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 091BA93E1E518E78001B35F1 /* ZLScrollViewTests.m */; };
 		091BA94A1E518E78001B35F1 /* ZLScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 091BA9491E518E78001B35F1 /* ZLScrollViewUITests.m */; };
+		091BA9591E518E8F001B35F1 /* ZLScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 091BA9581E518E8F001B35F1 /* ZLScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		091BA9451E518E78001B35F1 /* ZLScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		091BA9491E518E78001B35F1 /* ZLScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLScrollViewUITests.m; sourceTree = "<group>"; };
 		091BA94B1E518E78001B35F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		091BA9571E518E8F001B35F1 /* ZLScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLScrollView.h; sourceTree = "<group>"; };
+		091BA9581E518E8F001B35F1 /* ZLScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				091BA9281E518E78001B35F1 /* AppDelegate.m */,
 				091BA92A1E518E78001B35F1 /* ViewController.h */,
 				091BA92B1E518E78001B35F1 /* ViewController.m */,
+				091BA9571E518E8F001B35F1 /* ZLScrollView.h */,
+				091BA9581E518E8F001B35F1 /* ZLScrollView.m */,
 				091BA92D1E518E78001B35F1 /* Main.storyboard */,
 				091BA9301E518E78001B35F1 /* Assets.xcassets */,
 				091BA9321E518E78001B35F1 /* LaunchScreen.storyboard */,
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				091BA92C1E518E78001B35F1 /* ViewController.m in Sources */,
+				091BA9591E518E8F001B35F1 /* ZLScrollView.m in Sources */,
 				091BA9291E518E78001B35F1 /* AppDelegate.m in Sources */,
 				091BA9261E518E78001B35F1 /* main.m in Sources */,
 			);
